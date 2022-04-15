@@ -119,14 +119,19 @@ body {
 /*----------------- hiro--------------- */
 .hiro {
    color: #ffffff;
-   background-color:var(--bgc);
    text-align: center;
    padding-top: 200px;
    padding-bottom: 180px;
    width: 1600px;
    margin: 0 auto;
+
+
    background-image: url(../images/Img\ bg.jpg );
+   background-color: rgba(47, 48, 58, 0.4);
+
+
 }
+
 
 .hiro-title {
    margin-bottom: 30px;
