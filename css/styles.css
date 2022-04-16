@@ -397,6 +397,28 @@ a[href*="https"] {
    color: #ffffff;
 }
 
+.tumb-futter-list {
+   display: flex;
+   align-items: baseline;
+}
+.tumb-futter-list-items + .tumb-futter-list-items {
+   margin-left: 75px;
+}
+.futter .section-title {
+   font-size: 14px;
+   line-height: 1.14;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+
+   color: #ffffff;
+   margin-bottom: 20px;
+   text-align: start;
+}
+.soc {
+   background: rgba(255, 255, 255, 0.1);
+   color: #ffffff;
+}
+
 /* ------------------ portfolio------------------- */
 .btn-radio {
    padding: 94px 0;
@@ -502,4 +524,9 @@ button.activ {
 }
 .grid-items:nth-last-child(-n + 3) {
    margin-bottom: 0;
+}
+.grid-items a:hover,
+.grid-items a:focus {
+   display: inline-block;
+   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
