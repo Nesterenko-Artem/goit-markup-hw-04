@@ -491,7 +491,8 @@ a[href*="https"] {
 
    color: var(--brend-color);
 }
-button.activ {
+.btn-items button:hover,
+.btn-items button:focus {
    display: block;
    text-align: center;
    background: #2196f3;
