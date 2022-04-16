@@ -109,6 +109,13 @@ body {
 
 .adress a {
    color: var(--brend-color);
+   display: flex;
+   align-items: center;
+}
+
+.icons {
+   fill: currentColor;
+   margin-right: 10px;
 }
 
 .adress li:not(:first-child) {
@@ -200,6 +207,15 @@ body {
    margin-right: 0;
 }
 
+.items-image {
+   width: 270px;
+   height: 120px;
+   /* background-color: #d2b48c; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 30px;
+}
 section.unit {
    padding-top: 94px;
 }
@@ -278,10 +294,7 @@ section.unit {
    margin-right: 30px;
    background-color: #fff;
 
-   box-shadow:
-   0px 1px 3px rgba(0, 0, 0, 0.12),
-   0px 1px 1px rgba(0, 0, 0, 0.14),
-   0px 2px 1px rgba(0, 0, 0, 0.2);
+   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
    border-radius: 0px 0px 4px 4px;
 }
 .card:last-child {
@@ -291,34 +304,65 @@ section.unit {
 .masters-soc-link {
    width: 44px;
    height: 44px;
-   background-color: #d2b48c ;
+   /* background-color: #d2b48c; */
    border-radius: 50%;
    display: flex;
    align-items: center;
    justify-content: center;
-   color: #AFB1B8;
+   color: #afb1b8;
 }
 
-.masters-soc-list{
+.masters-soc-list {
    display: flex;
-   justify-content: center
+   justify-content: center;
 }
 
-.masters-soc-item +.masters-soc-item{
+.masters-soc-item + .masters-soc-item {
    margin-left: 10px;
 }
 
-.masters-soc-icons{
+.masters-soc-icons {
    fill: currentColor;
-
 }
 .masters-soc-link:hover,
-.masters-soc-link:focus{
-   background: #2196F3;
+.masters-soc-link:focus {
+   background: #2196f3;
    color: #fff;
 }
 
 /* --------- section 3---------------- */
+
+/* ----------------------- section 4 ---------------- */
+
+.company-list {
+   display: flex;
+   justify-content: space-between;
+}
+
+.company-list-link {
+   width: 170px;
+   height: 92px;
+   /* background-color: #d2b48c; */
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #afb1b8;
+   border: 1px solid #afb1b8;
+   border-radius: 4px;
+}
+.company-incons {
+   fill: currentColor;
+}
+
+.company-list-link:hover,
+.company-list-link:focus {
+   color: #2196f3;
+   border-color: #2196f3;
+}
+
+/* ----------------------- section 4 ---------------- */
+
 .futter {
    background-color: var(--bgc);
    padding-top: 60px;
@@ -352,6 +396,7 @@ section.unit {
 a[href*="https"] {
    color: #ffffff;
 }
+
 /* ------------------ portfolio------------------- */
 .btn-radio {
    padding: 94px 0;
