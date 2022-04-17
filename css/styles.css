@@ -208,13 +208,14 @@ body {
 }
 
 .items-image {
-   width: 270px;
+
    height: 120px;
-   /* background-color: #d2b48c; */
    display: flex;
    justify-content: center;
    align-items: center;
    margin-bottom: 30px;
+   background: #f5f4fa;
+   border-radius: 4px;
 }
 section.unit {
    padding-top: 94px;
